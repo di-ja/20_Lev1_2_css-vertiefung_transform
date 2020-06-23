@@ -1,0 +1,83 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background: lightcyan;
+}
+* {margin:0; padding:0}
+
+p {
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+    padding: 5% 10px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    padding: 15vh 5% 0;
+
+}
+.translate {
+    width: 200px;
+    height: 200px;
+    background: green;
+    border-radius: 8px;
+    transition: 1s transform;
+}
+.translate:hover {
+    transform: translate(50px, 50px);
+}
+.translateX {
+    width: 200px;
+    height: 200px;
+    background: green;
+    border-radius: 8px;
+    transition: 2s transform;
+}
+.translateX:hover {
+    transform: translateX(50px);
+}
+.translateY {
+    width: 200px;
+    height: 200px;
+    background: green;
+    border-radius: 8px;
+    transition: 2s transform;
+}
+.translateY:hover {
+    transform: translateY(50px);
+}
+.rotate {
+    width: 200px;
+    height: 200px;
+    background: green;
+    border-radius: 8px;
+    transition: 2s transform;
+}
+.rotate:hover {
+    transform: rotate(45deg);
+}
+.scale {
+    width: 200px;
+    height: 200px;
+    background: green;
+    border-radius: 8px;
+    transition: 2s transform;
+}
+.scale:hover {
+    transform: scale(1.5);
+}
+.skew {
+    width: 200px;
+    height: 200px;
+    background: green;
+    border-radius: 8px;
+    transition: 2s transform;
+}
+.skew:hover {
+    transform: skew(20deg, 10deg);
+}
